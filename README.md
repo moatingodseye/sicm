@@ -20,7 +20,7 @@ From the [latest release](../../releases/latest):
 |---|---|---|
 | Windows 10 / 11 (64-bit) | `sicm.exe` | Download and run. Windows SmartScreen may warn about an unknown app the first time: *More info → Run anyway*. |
 | Linux x86-64 (glibc 2.35+: Ubuntu 22.04, Debian 12, Fedora 36 or later) | `sicm-linux-x86_64` | `chmod +x sicm-linux-x86_64` and run. The tray icon needs a desktop with a system tray (KDE, Cinnamon, XFCE; GNOME with the AppIndicator extension). |
-| macOS 11 or later (Apple silicon and Intel) | `sicm-macos.zip` | Unzip and drag *Simple Internet Connection Monitor* to Applications. Not yet signed by Apple, so the first open needs one extra step: see below. |
+| macOS 11 or later (Apple silicon and Intel) | `sicm-macos.dmg` | Open it and drag *Simple Internet Connection Monitor* to Applications. Not yet signed by Apple, so the first open needs one extra step: see below. |
 
 Each release lists the SHA-256 of every file.
 
