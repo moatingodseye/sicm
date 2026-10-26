@@ -20,9 +20,19 @@ From the [latest release](../../releases/latest):
 |---|---|---|
 | Windows 10 / 11 (64-bit) | `sicm.exe` | Download and run. Windows SmartScreen may warn about an unknown app the first time: *More info → Run anyway*. |
 | Linux x86-64 (glibc 2.35+: Ubuntu 22.04, Debian 12, Fedora 36 or later) | `sicm-linux-x86_64` | `chmod +x sicm-linux-x86_64` and run. The tray icon needs a desktop with a system tray (KDE, Cinnamon, XFCE; GNOME with the AppIndicator extension). |
-| macOS | coming soon | |
+| macOS 11 or later (Apple silicon and Intel) | `sicm-macos.zip` | Unzip and drag *Simple Internet Connection Monitor* to Applications. Not yet signed by Apple, so the first open needs one extra step: see below. |
 
 Each release lists the SHA-256 of every file.
+
+### Opening it on a Mac the first time
+
+The Mac app is not yet notarised by Apple, so macOS will not open it straight away:
+
+1. Double-click it. macOS says it cannot check the app for malicious software. Press **Done**.
+2. Open **System Settings → Privacy & Security** and scroll down. Next to the message about
+   *Simple Internet Connection Monitor*, press **Open Anyway**, then confirm.
+
+After that it opens normally. (On macOS 15 and later, right-click → Open no longer skips this.)
 
 ## How it checks
 
